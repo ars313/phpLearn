@@ -1,4 +1,4 @@
 <?php
-for ($i = 1; $i <= 20; $i = $i + 2) {
+for ($i = 1; $i <= 100; $i = $i + 7) {
     echo "hitungan dimulai dari $i <br>";
 }
