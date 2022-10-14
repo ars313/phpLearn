@@ -1,5 +1,5 @@
 <?php
-function pangkat(int $nilai_dasar, int $nilai_pangkat) {
+function pangkat($nilai_dasar, $nilai_pangkat):float {
     $hasil = 1;
     for ($i = 1; $i <= $nilai_pangkat; $i++) {
         $hasil = $hasil * $nilai_dasar;
@@ -8,4 +8,4 @@ function pangkat(int $nilai_dasar, int $nilai_pangkat) {
 }
 
 
-echo pangkat(9, 4);
+echo pangkat(1.2, 4);
