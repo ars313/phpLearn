@@ -26,4 +26,3 @@ $siswa = [
     </table>
     </body>
 </html>
-
