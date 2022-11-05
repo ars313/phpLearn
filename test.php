@@ -1,10 +1,13 @@
 <?php
 
-for ($i = 1; $i <= 20; $i = $i + 2) {
-    echo "$i <br>";
+$_POST["kado"] = "a";
+
+if (isset($_POST["kado"])) {
+    $checked_pos = "checked";
 }
 
-
-for ($i = 30; $i > 0; $i = $i - 3) {
-    echo "Anak ayam turun $i <br>";
+else {
+    $checked_pos = "";
 }
+
+echo "$checked_pos";
