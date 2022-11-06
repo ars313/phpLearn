@@ -14,6 +14,11 @@
 //$_POST["kado"] = "Buku Dunia Ilkom";
 //$checked_kado = isset($_POST["kado"]) ? $_POST["kado"] : "";
 //echo $checked_kado;
-$a = 9;
-$kondisi = $a > 5 ? "lebih besar dari 5" : "lebih kecil dari 5";
-echo $kondisi;
+//$a = 9;
+//$kondisi = $a > 5 ? "lebih besar dari 5" : "lebih kecil dari 5";
+//echo $kondisi;
+//
+//$_POST["kado"] = "Hello Kholis";
+$prize = "Hello prog";
+$kado = $_POST["kado"] ?? $prize ?? "";
+echo $kado;
