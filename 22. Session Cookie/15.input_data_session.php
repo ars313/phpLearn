@@ -10,8 +10,8 @@
 <body>
   <h1>Session</h1>
   <?php
-    $_SESSION["nama"] = "Sheila";
-    $_SESSION["id"] = "007";
+    $_SESSION["nama"] = "Hendrik";
+    $_SESSION["id"] = "009";
     $_SESSION["hak_akses"] = "super_user";
   ?>
 </body>
